@@ -1,0 +1,53 @@
+body {
+  font-family: "Share Tech Mono", monospace;
+  background-image: url("https://i.ibb.co/FVXnQxn/hello-i-m-nik-q-Xakibu-Qi-PU-unsplash.jpg");
+  background-position: no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  margin: 30px 0 0 50px;
+}
+
+table {
+  width: 30%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.conatainer {
+  margin: 30px;
+}
+
+.js-range-text {
+  margin-top: 50px;
+}
+
+.margin {
+  margin-bottom: 40px;
+}
+
+.js-winner {
+  font-size: 25px;
+  width: 30%;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: lightsalmon;
+  color: red;
+}
+
+.green {
+  background-color: lightseagreen;
+  color: green;
+}
+
+.table-container {
+  opacity: 0.5;
+  margin-top: 100px;
+}

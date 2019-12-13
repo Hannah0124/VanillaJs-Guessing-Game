@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guessing Number Game</title>
+    <meta charset="UTF-8" />
+    <link 
+      href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="src/styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guessing Number Game</h1>
+      <div class="js-range-text">Generate a number between 0 and 200</div>
+      <div class="margin"></div>
+      <form class="js-range-form">
+        <input
+          class="js-range-input"
+          type="range"
+          name="number"
+          min="0.0"
+          max="200.0"
+          step="5.0"
+          value="100.0"
+        />
+      </form>
+      <div class="margin"></div>
+      <form class="js-number-form">
+        <span>Guess the number:</span>
+        <input class="js-number-input" type="number" />
+        <button>Play!</button>
+      </form>
+      <div class="margin"></div>
+      <div class="js-result"></div>
+      <div class="margin"></div>
+      <div class="js-winner"></div>
+      <div class="margin"></div>
+      <div class="table-container">
+        <h3 class="score-so-far">Score So Far...</h3>
+        <table>
+          <tr>
+            <th>User</th>
+            <th>Machine</th>
+          </tr>
+          <tr>
+            <td class="user-score">0</td>
+            <td class="machine-score">0</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
